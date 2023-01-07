@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* button */
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 230px;
+
+}
+/* this is header section */
+.header{
+    background: url(../images/banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+    text-align: right;
+    background-repeat: no-repeat;
+}
+.header .header-title, .header-description{
+    margin-right: 230px;
+    margin-left: 845px;
+    text-align: right;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: right;
+    padding-bottom: 24px;
+    padding-top: 160px;
+}
+   
+.header-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 230px;
+    padding-bottom: 32px;
+}
+button{
+    margin-right: 230px;
+}
+/* this is faifure section */
+span {
+    content: "\2713";
+  }
+  .failure-section{
+    display:flex;
+    margin-top: 131px;
+    width: 1072px;
+    margin-left: 216px;
+    margin-right: 322px;
+    margin-bottom: 130px;
+  }
+  .person-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 340px;
+    margin-bottom: 24px;
+  }
+  .person-description{
+    color: #444343;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  /* my plane section */
+  .my-plans{
+    display: flex;
+    text-align: center;
+    margin:0 230px;
+    justify-content: space-around;
+  }
+  .plan-titles{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+  }
+  .plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    padding-bottom: 16px;
+  }
+  /* mindset section */
+.mindset{
+  margin: 130px 230px;
+  width: 1140px;
+  height: 300px;
+  background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 80%), url(../images/watch.png);
+}
+.mindset-title{
+  padding: 59px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 40px;
+}
+#btn{
+  color: #005FAC;
+  margin-left: 64px;
+}
+/* footer section */
+.footer{
+  display: flex;
+  width: 1600px;
+  height: 500px;
+  background: #151414;  
+  color: #FFFFFF;
+  justify-content: space-between;
+}
+.future{
+ color: white;
+ width: 485px;
+ padding: 130px;
+}
+.future-title{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.future-description{
+ margin-bottom: 25px;
+}
+.email{
+  margin-bottom: 16px;
+}
+.future .icon{
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.subscribe{
+  width: 350px;
+  padding-top: 130px;
+}
+.subscribe .subscribe-title{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.subscribe .email2{
+  padding: 10px;
+  background: #151414;
+  border-radius: 10px solid white;
+  margin-bottom: 25px;
+  color: #FFFFFF;
+}
+.btn-subscribe{
+  width: 160px;
+  height: 64px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #FFFFFF;
+  background: #005FAC;
+}
